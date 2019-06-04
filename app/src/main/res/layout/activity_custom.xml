@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".UI.custom.CustomActivity">
+    <!--<android.support.v4.widget.NestedScrollView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_gravity="left"-->
+    <!--app:layout_behavior="com.seventeenok.test.custom.SyncScrollBehvior"-->
+    <!--android:layout_height="match_parent" >-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv1"-->
+    <!--android:text="观察者"-->
+    <!--android:background="#f00"-->
+    <!--android:layout_gravity="left|top"-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp" />-->
+    <!--</android.support.v4.widget.NestedScrollView>-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv2"-->
+    <!--android:text="观察者"-->
+    <!--app:layout_behavior="com.seventeenok.test.custom.CustomBehavior"-->
+    <!--android:background="#0f0"-->
+    <!--android:layout_gravity="right|top"-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp" />-->
+    <!--<ImageView-->
+    <!--android:src="@drawable/ic_home_audio"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp" />-->
+    <!--<ImageView-->
+    <!--android:layout_marginTop="200dp"-->
+    <!--android:src="@drawable/ic_home_audio"-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="300dp" />-->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="hahahaha"
+        android:textColor="@android:color/black" />
+
+    <com.seventeenok.test.MyView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        app:circle_color="@color/colorPrimary"
+        android:background="#000000" />
+
+</android.support.design.widget.CoordinatorLayout>
