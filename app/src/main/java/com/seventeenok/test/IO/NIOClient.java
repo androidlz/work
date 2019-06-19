@@ -42,6 +42,7 @@ public class NIOClient {
                 SelectionKey key = iterator.next();
                 //删除已选中的key,以防重复处理
 //奥术大师多
+                //asda
             }
 
 
