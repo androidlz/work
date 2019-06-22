@@ -11,16 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".UI.scrollAnimator.ScrollAnimatorActivity"></activity>
-        <activity android:name=".UI.recyclerview.RecyclerViewActivity">
-
-
-        </activity>
-        <activity android:name=".UI.appbar_layout.AppBarActivity"></activity>
-        <activity android:name=".UI.collapsingToolbarLayout.CollapsingActivity"></activity>
+        <activity android:name=".UI.scrollAnimator.ScrollAnimatorActivity" />
+        <activity android:name=".UI.recyclerview.RecyclerViewActivity"></activity>
+        <activity android:name=".UI.appbar_layout.AppBarActivity" />
+        <activity android:name=".UI.collapsingToolbarLayout.CollapsingActivity" />
         <activity android:name=".UI.custom.CustomActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -39,6 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".UI.anim.AnimActivity"></activity>
     </application>
 
 </manifest>
