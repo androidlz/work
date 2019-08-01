@@ -27,6 +27,8 @@ public class AnimActivity extends Activity {
 
     public void click(View view) {
         //实现抛物线的效果  x  匀速    y加速  y=1/2 gt*t
+
+        //方法1   估值器
 //        ValueAnimator animator = new ValueAnimator();
 //        animator.setDuration(5000);
 //        animator.setObjectValues(new PointF(0, 0));
@@ -50,10 +52,12 @@ public class AnimActivity extends Activity {
 //        });
 //        animator.start();
 
-        //设置加速度
+        //方法2     设置加速度                                                              alpha  scaleX  scaleY
         ObjectAnimator animator = ObjectAnimator.ofFloat(imgv, "translationX", 0f, 700f);
         animator.setDuration(1000);
         animator.setInterpolator(new AccelerateInterpolator(5));
         animator.start();
+
+
     }
 }

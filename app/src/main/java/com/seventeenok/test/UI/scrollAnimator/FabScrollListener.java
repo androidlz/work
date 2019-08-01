@@ -1,6 +1,6 @@
 package com.seventeenok.test.UI.scrollAnimator;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class FabScrollListener extends RecyclerView.OnScrollListener {
     public static final int THREHOLD = 20;

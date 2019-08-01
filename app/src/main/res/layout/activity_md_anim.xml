@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/imgv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="click"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/imgv1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="click"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/icon_2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f00"
+            android:onClick="startFirstAnimation"
+            android:text="显示" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:onClick="startSecondAnimation"
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"
+        android:src="@mipmap/icon_1"
+        android:visibility="invisible" />
+</RelativeLayout>
