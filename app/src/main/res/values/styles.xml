@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorControlHighlight">@color/colorAccent</item>
         <item name="colorButtonNormal">@android:color/holo_green_dark</item>
+        <item name="android:windowActivityTransitions" tools:targetApi="lollipop">true</item>
     </style>
 
 </resources>
