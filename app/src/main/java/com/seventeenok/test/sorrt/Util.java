@@ -1,4 +1,4 @@
-package study.sorrt;
+package com.seventeenok.test.sorrt;
 
 import java.util.Arrays;
 

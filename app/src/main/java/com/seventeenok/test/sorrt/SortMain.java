@@ -1,16 +1,16 @@
-package study.sorrt;
+package com.seventeenok.test.sorrt;
 
-import com.sun.javafx.collections.SortHelper;
+import com.seventeenok.test.sorrt.TwoSumArray;
 
 public class SortMain {
     private int[] a;
-    private static KySort kySort;
+    private static study.sorrt.KySort kySort;
 
     public SortMain(int... values) {
         this.a = values;
     }
 
-    private static void setSorter(KySort sorter) {
+    private static void setSorter(study.sorrt.KySort sorter) {
         kySort = sorter;
     }
 

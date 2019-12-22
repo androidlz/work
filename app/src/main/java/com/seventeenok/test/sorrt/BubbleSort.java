@@ -1,6 +1,8 @@
-package study.sorrt;
+package com.seventeenok.test.sorrt;
 
-import static study.sorrt.Util.swap;
+import com.seventeenok.test.sorrt.KySort;
+
+import static com.seventeenok.test.sorrt.Util.swap;
 
 public class BubbleSort implements KySort {
 

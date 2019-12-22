@@ -1,9 +1,9 @@
-package study.sorrt;
+package com.seventeenok.test.sorrt;
 
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class TwoSumArray implements KySort {
+public class TwoSumArray implements study.sorrt.KySort {
 
     @Override
     public void kySort(int[] attr, int len) {

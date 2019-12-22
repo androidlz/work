@@ -1,6 +1,6 @@
-package study.sorrt;
+package com.seventeenok.test.sorrt;
 
-
+import com.seventeenok.test.sorrt.SortTestHelper;
 
 public class InsertionSort{
 

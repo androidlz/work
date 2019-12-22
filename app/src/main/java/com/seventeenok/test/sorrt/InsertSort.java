@@ -1,4 +1,6 @@
-package study.sorrt;
+package com.seventeenok.test.sorrt;
+
+import com.seventeenok.test.sorrt.KySort;
 
 import java.util.Arrays;
 

@@ -1,6 +1,5 @@
-import java.lang.management.ManagementFactory;
-import java.lang.management.ThreadInfo;
-import java.lang.management.ThreadMXBean;
+package com.seventeenok.test.sorrt;
+
 import java.util.*;
 
 public class Main {
