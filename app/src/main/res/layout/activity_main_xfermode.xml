@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="2">
+
+        <TableRow>
+
+
+            <Button
+                android:id="@+id/roundsrcin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="圆角"/>
+
+            <Button
+                android:id="@+id/invertsrcin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="倒影图像"/>
+        </TableRow>
+
+        <TableRow>
+
+
+
+            <Button
+                android:id="@+id/eraserview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="橡皮擦"/>
+
+
+            <Button
+                android:id="@+id/guaguaview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="刮刮卡"/>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/roundsrcatop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="圆角"/>
+
+            <Button
+                android:id="@+id/invertsrcatop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="倒影图像"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+    <com.seventeenok.test.UI.paint.xfermode.RoundImageView_SRCIN
+        android:id="@+id/roundsrcin_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.seventeenok.test.UI.paint.xfermode.InvertedImageView_SRCIN
+        android:id="@+id/invertsrcin_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.seventeenok.test.UI.paint.xfermode.EraserView_SRCOUT
+        android:id="@+id/eraserview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.seventeenok.test.UI.paint.xfermode.GuaGuaCardView_SRCOUT
+        android:id="@+id/guaguaview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.seventeenok.test.UI.paint.xfermode.RoundImageView_SRCATOP
+        android:id="@+id/roundsrcatop_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.seventeenok.test.UI.paint.xfermode.InvertedImageView_SRCATOP
+        android:id="@+id/invertsrcatop_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</LinearLayout>

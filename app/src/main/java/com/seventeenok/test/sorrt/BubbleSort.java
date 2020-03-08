@@ -6,10 +6,10 @@ import static com.seventeenok.test.sorrt.Util.swap;
 
 public class BubbleSort implements KySort {
 
-    public static void main(String[] args) {
-        int[] arr = {9, 8, 7, 6, 5};
+//    public static void main(String[] args) {
+//        int[] arr = {9, 8, 7, 6, 5};
 //
-        int len = arr.length;
+//        int len = arr.length;
 //
 //        for (int i=0;i<len-1;i++) {
 //            System.out.println("第"+(i+1)+"趟");
@@ -32,9 +32,7 @@ public class BubbleSort implements KySort {
 //            }
 //        }
 //        System.out.println(Arrays.toString(arr));
-
-
-    }
+//    }
 
 
     @Override

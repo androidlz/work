@@ -1,11 +1,11 @@
 package com.seventeenok.test.sorrt;
 
-import java.util.Arrays;
+
 
 import static com.seventeenok.test.sorrt.Util.swap;
 
 
-public class QuickSort implements study.sorrt.KySort {
+public class QuickSort implements KySort {
     @Override
     public void kySort(int[] a, int size) {
         quickSortInternal(a, 0, size - 1);

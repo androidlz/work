@@ -256,7 +256,7 @@ public class ScrollAnimatorLayout extends FrameLayout implements Animator.Animat
         if (mCurScrollDirection != ScrollDirection.NONE) {
             mTransInAnimator.setCurrentPlayTime((long) (mTransInAnimator.getDuration() * Math.abs(fac)));
             mAlphaInAnimator.setCurrentPlayTime((long) (mAlphaInAnimator.getDuration() * Math.abs(fac) * 2));
-            mInAnimatorSet.pause();
+//            mInAnimatorSet.pause();
         }
     }
 

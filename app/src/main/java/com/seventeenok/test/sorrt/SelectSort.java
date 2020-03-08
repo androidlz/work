@@ -4,7 +4,7 @@ import com.seventeenok.test.sorrt.Util;
 
 import java.util.Arrays;
 
-public class SelectSort implements study.sorrt.KySort {
+public class SelectSort implements KySort {
     @Override
     public void kySort(int[] attr, int len) {
         for (int i = 0; i < len - 1; i++) {

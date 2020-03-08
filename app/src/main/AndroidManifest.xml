@@ -12,33 +12,37 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity android:name=".webview.WebActivity">
+
+        </activity>
+        <activity android:name=".UI.scrollAnimator.ScrollAnimatorActivity" />
+        <activity android:name=".UI.recyclerview.RecyclerViewActivity" />
+        <activity android:name=".UI.appbar_layout.AppBarActivity" />
+        <activity android:name=".UI.collapsingToolbarLayout.CollapsingActivity" />
+        <activity android:name=".UI.custom.CustomActivity" />
+        <activity android:name=".UI.MainTestActivity" >
+
+        </activity>
+        <activity android:name=".UI.anim.AnimActivity" />
+        <activity android:name=".android.TestActivity" >
+
+        </activity>>
+        <activity android:name=".UI.md_anim.MdAnimActivity"></activity>
+        <activity android:name=".webview.ProgressWebviewActivity" />
+        <activity android:name=".UI.paint.xfermode.XfermodeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UI.scrollAnimator.ScrollAnimatorActivity" />
-        <activity android:name=".UI.recyclerview.RecyclerViewActivity" />
-        <activity android:name=".UI.appbar_layout.AppBarActivity" />
-        <activity android:name=".UI.collapsingToolbarLayout.CollapsingActivity" />
-        <activity android:name=".UI.custom.CustomActivity"></activity>
-
-        <activity android:name=".UI.MainTestActivity"></activity>
-
-        <activity android:name=".UI.anim.AnimActivity" />
-        <activity android:name=".android.TestActivity" />
-        <activity android:name=".UI.md_anim.MdAnimActivity">
-
-        </activity>
-        <activity android:name=".webview.ProgressWebviewActivity" />
-
         <service
             android:name=".MyService"
             android:enabled="true"
             android:exported="true"
             android:process=":remote"
             tools:ignore="ExportedService" />
+
+        <activity android:name=".retrofit.RetrofitActivity"></activity>
     </application>
 
 </manifest>

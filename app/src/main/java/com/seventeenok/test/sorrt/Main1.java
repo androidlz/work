@@ -1,10 +1,10 @@
-package com.seventeenok.test.sorrt;
+//package com.seventeenok.test.sorrt;
 
 import java.util.*;
 
-public class Main {
+//public class Main {
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 
 //        System.out.println("Hello World!");
 //        Set<String> set = new HashSet<>();
@@ -28,7 +28,7 @@ public class Main {
 //        }
 
 
-    }
+//    }
 
 
-}
+//}

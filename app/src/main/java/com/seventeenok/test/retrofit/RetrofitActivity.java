@@ -8,14 +8,14 @@ import retrofit2.Retrofit;
 
 import android.os.Bundle;
 
-import com.google.gson.Gson;
+//import com.google.gson.Gson;
 import com.seventeenok.test.R;
 
 import java.io.IOException;
 import java.util.List;
 
 public class RetrofitActivity extends AppCompatActivity {
-    Gson gson =new Gson();
+//    Gson gson =new Gson();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +28,7 @@ public class RetrofitActivity extends AppCompatActivity {
         commonApi.getArticle().enqueue(new Callback<List<Article>>() {
             @Override
             public void onResponse(Call<List<Article>> call, Response<List<Article>> response) {
-                System.out.println("chenggong"+gson.toJson(response.body()));
+//                System.out.println("chenggong"+gson.toJson(response.body()));
             }
 
             @Override
